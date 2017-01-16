@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <meta charset="utf-8">
+  <title>jQuery Mobile UI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" 
+        href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+  <!--[if lt IE9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <!-- The script included above by conditional directive is for MS IExplorer9 -->
+  <!-- See below for other scripts put at end of body so pages load faster -->
+</head>
+
+<body>
+
+<div data-role="page" id="page1">
+  <div data-role="header" data-theme="a">
+    <div data-role="navbar" data-iconpos="top">
+	<ul>
+	<li>
+		<a href="#page1" data-transition="fade"  data-icon="home">
+		Players
+		</a>
+	</li>
+	<li>
+		<a href="#page1" data-transition="fade"  data-icon="star">
+		New Hand
+		</a>
+	</li>
+	<li>
+		<a href="#page1" data-transition="fade"  data-icon="info">
+		Rules
+		</a>
+	</li>
+	<li>
+		<a href="#page1" data-transition="fade"  data-icon="check">
+		Save
+		</a>
+	</li>
+	</ul>
+	</div>
+  </div>
+  <div data-role="content">
+	<ul data-role="listview" data-divider-theme="b" data-inset="true">
+	<li data-theme="b">
+		Player 1: 
+	</li>
+	<li data-theme="b">
+		Player 2: 
+	</li>
+	<li data-theme="b">
+		Player 3: 
+	</li>
+	<li data-theme="b">
+		Player 4: 
+	</li>
+	</ul>
+  </div>
+  
+  <div data-role="content">
+	<ul data-role="listview" data-divider-theme="c" data-inset="true">
+	<li data-theme="b">
+		Winner: 
+	</li>
+	</ul>
+  </div>
+    
+  <div data-theme="a" data-role="footer" data-position="fixed">
+		<h2> <a href="#" style="color:White; font-size:small">TheCyberInstitute</a></h2>
+  </div>
+  </div>
+
+    <script src="js/scripts.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js">
+</script>
+</body>
+</html>
+
